@@ -7,14 +7,20 @@ html, body{
 header{
 	background:
  #ff99cc;
+ 	background-image: url('../img/pixel-image-100.jpg')
+ 	background-repeat: repeat;
  padding: 40px;
+ text-align: center;
 
 
 }
 
 header h1{
-	font-size: 90;
+	font-size: 80px;
 	color: white;
+	text-shadow: 0 40px 20px black;
+	margin: 0;
+	text-transform: uppercase;
 
 }
 
@@ -22,6 +28,7 @@ header img{
 	border-radius: 150px;
 	width: 300px;
 	border:10px solid #99ccff;
+	box-shadow: 0 10px 20px black;
 
 }
 .content{
